@@ -5,4 +5,4 @@ explains simply the Wind Turbine technology and Wind Farms off the coast of Long
 
 
 
-Live Demo: https://shaniab417.github.io/WIndInfo/
+Live Demo: https://shaniab417.github.io/WindInfo/
