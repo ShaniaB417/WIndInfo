@@ -1,0 +1,155 @@
+/* styles.css
+styles for the website 
+written by shania brown
+*/ 
+
+
+/* Body styles */
+body {
+  background-image: url('img/turbine1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif, 'Tajawal', sans-serif;
+  color: #333;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* Main content styles */
+.main {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Navigation styles */
+nav {
+  background: linear-gradient(to bottom, #222, #333);
+  padding: 10px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+
+/* list items */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  position: relative;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #66c2ff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+}
+
+a:hover {
+  color: #66c2ff;
+}
+
+a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+nav:hover {
+  background: linear-gradient(to bottom, #333, #444);
+}
+
+/* Main content area */
+.main-content {
+  background-color: rgba(173, 225, 253, 0.621);
+  line-height: normal;
+  padding: 1%;
+}
+
+/* Gallery styles */
+#photo-gallery {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#photo-gallery img {
+  width: 100%;
+  display: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Figcaption styles */
+figcaption {
+  text-align: center;
+}
+
+/* Centering the nav */
+.nav {
+  text-align: center;
+}
+
+/* Positioning the logo to the left */
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust the maximum width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+p {
+  font-weight: normal; 
+  font-size: larger;
+}
+
+h3,h4{
+  font-size: x-large;   /* make the font for h1 and h4 larger than the p elements */
+}
+
+footer {
+  background-color: #333; 
+  color: #fff;
+  text-align: center;
+  padding: 10px 0; 
+
+}

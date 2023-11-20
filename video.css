@@ -1,0 +1,26 @@
+/* video.css 
+css file for youtube video
+written by shania brown 
+*/
+
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* Ensure video doesn't exceed container width */
+    margin-top: 20px; 
+  }
+  
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove iframe border */
+  }
+
+
+

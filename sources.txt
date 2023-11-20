@@ -1,0 +1,36 @@
+All of the resources that I used can be found here. All of the links are provided or where I got the information or photos from. 
+
+Research: 
+
+https://www.thefisherman.com/article/offshore-wind-farms-what-you-should-know/
+
+https://www.nyserda.ny.gov/All-Programs/Offshore-Wind/Focus-Areas/NY-Offshore-Wind-Projects
+
+https://us.orsted.com 
+
+https://windworksny.org/projects
+
+https://www.thefisherman.com/article/offshore-wind-farms-what-you-should-know/
+
+
+Coding Resources:
+
+https://medium.com/@raviashar94/embed-a-youtube-video-player-using-youtube-iframe-api-and-javascript-989fe87ee496
+https://www.npmjs.com/package/youtube-player 
+
+
+Photo credits:
+
+photos via Upsplash 
+insung yoon 
+Shaun Dakin
+Matt Artz
+
+Logo 
+Adobe - https://stock.adobe.com/search?k=wind+turbine+logo
+
+
+
+youtube
+
+https://www.youtube.com/watch?v=Bl61tzR32sE 
